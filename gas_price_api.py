@@ -9,7 +9,7 @@ to get gas prices by postal code using the py-gasbuddy package.
 
 from flask import Flask, request, jsonify
 import asyncio
-import gasbuddy
+from gasbuddy_local import gasbuddy
 import requests
 import json
 import os
